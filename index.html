@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZARKOV STORE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800;900&family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1a2bff;--bg2:#0b138f;--ink:#f4f2ff;--card:rgba(8,14,120,.66);--line:rgba(160,170,255,.4);--accent:#ffd400;--accent-ink:#14146b;--tg:#27a7e7;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1099;--bg2:#050760}}
+:root[data-theme="dark"]{--bg:#0a1099;--bg2:#050760}
+html{scroll-padding-top:env(safe-area-inset-top,0px);font-size:19px}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:"Vazirmatn",system-ui,sans-serif;line-height:1.7;min-height:100vh;
+background:
+ radial-gradient(700px 500px at 90% -5%,rgba(255,212,0,.35),transparent 60%),
+ radial-gradient(600px 600px at 0% 35%,rgba(39,167,231,.32),transparent 60%),
+ radial-gradient(500px 500px at 100% 80%,rgba(255,70,160,.2),transparent 60%),
+ linear-gradient(180deg,var(--bg),var(--bg2));background-color:var(--bg);background-attachment:fixed}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.13;
+background-image:linear-gradient(var(--ink) 1px,transparent 1px),linear-gradient(90deg,var(--ink) 1px,transparent 1px);background-size:44px 44px;
+-webkit-mask-image:linear-gradient(180deg,#000,transparent 60%);mask-image:linear-gradient(180deg,#000,transparent 60%)}
+.wrap{position:relative;max-width:1000px;margin:0 auto;padding:28px 20px 70px}
+header{padding:40px 0 8px}
+.mark{direction:ltr;font-family:"Unbounded","Arial Black",sans-serif;font-weight:900;font-size:clamp(58px,19vw,150px);line-height:.92;letter-spacing:-.03em;margin:0;text-shadow:0 8px 0 rgba(0,0,20,.28)}
+.mark span{display:block;color:var(--accent)}
+.sub{margin:22px 0 0;font-size:1.25rem;font-weight:600}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.chip{padding:6px 16px;border-radius:999px;border:1.5px solid var(--line);background:rgba(0,0,40,.3);font-weight:600;font-size:.95rem}
+.chip b{color:var(--accent)}
+.tg{display:flex;align-items:center;gap:16px;margin:28px 0 0;padding:18px 22px;border-radius:26px;background:linear-gradient(135deg,#34b6f5,#1d8fd6);color:#fff;text-decoration:none;font-weight:
